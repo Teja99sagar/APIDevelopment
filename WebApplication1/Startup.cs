@@ -26,6 +26,16 @@ namespace MusicApi
             // Additional service configurations can be added here
         }
 
+        //public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApiDbContext dbContext)
+        //{
+        //    if (env.IsDevelopment())
+        //    {
+        //        app.UseDeveloperExceptionPage();
+        //        app.UseSwagger();
+        //        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MusicApi v1"));
+        //    }
+
+        //dbContext.Database.EnsureCreated();
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApiDbContext dbContext)
         {
             if (env.IsDevelopment())
@@ -35,7 +45,7 @@ namespace MusicApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MusicApi v1"));
             }
 
-            dbContext.Database.EnsureCreated();
+           
 
             app.UseHttpsRedirection();
 

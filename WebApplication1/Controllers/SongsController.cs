@@ -26,10 +26,30 @@ namespace MusicApi.Controllers
 
         // GET api/<SongsController>/5
         [HttpGet("{id}")]
-        public Song Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return _dbContext.Songs.Find(id);
+            var song= await _dbContext.Songs.FindAsync(id);
+
+            if(song==null)
+            {
+                return NotFound("Record not Found");
+            }
+            return Ok(song);
         }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> testGetSong(int id)
+        {
+            var song = await _dbContext.Songs.FindAsync(id);
+
+            if (song == null)
+            {
+                return NotFound("Record not Found");
+            }
+            return Ok(song);
+        }
+
+
 
         // POST api/<SongsController>
         [HttpPost]
@@ -53,6 +73,7 @@ namespace MusicApi.Controllers
             {
                 song.title = songObj.title;
                 song.Language = songObj.Language;
+                song.Duration = songObj.Duration;
                 await _dbContext.SaveChangesAsync();
                 return Ok("Record Updated");
 
