@@ -7,15 +7,29 @@ namespace MusicApi.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage ="Title is required")]
-        public string title { get; set; }
+        public string Title{ get; set; }
 
-        [Required(ErrorMessage = "Language is required")]
-        public string Language { get; set; }
 
-        [Required(ErrorMessage = "Duration is required")]
         public string Duration { get; set; }
 
-    
+        public DateTime UploadedDate { get; set; }
+
+        public bool IsFeatured { get; set; }
+
+        [NotMapped]
+        public IFormFile Image { get; set; }
+
+        public string? ImageUrl { get; set; }
+
+        [NotMapped]
+        public IFormFile AudioFile { get; set; }
+
+        public string? AudioUrl { get; set; }
+
+        public int ArtistId { get; set; }
+
+        public int? AlbumId { get; set; }
+
+
     }
 }
