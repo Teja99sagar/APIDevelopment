@@ -22,7 +22,7 @@ namespace MusicApi
                 c.SwaggerDoc("v1", new() { Title = "Music API", Version = "v1" });
             });
             services.AddDbContext<ApiDbContext>(options =>
-                options.UseSqlServer(@"Data Source=(localdb)\ProjectModels;Initial Catalog=MusicDb;"));
+                options.UseSqlServer(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
             // Additional service configurations can be added here
         }
 
@@ -45,7 +45,16 @@ namespace MusicApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MusicApi v1"));
             }
 
-           
+            // 🔧 Apply migrations automatically
+            //try {
+            //    dbContext.Database.Migrate();
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    // Log the exception (you can use any logging framework)
+            //    Console.WriteLine($"An error occurred while migrating the database: {ex.Message}");
+            //}
 
             app.UseHttpsRedirection();
 

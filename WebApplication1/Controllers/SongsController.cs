@@ -52,25 +52,41 @@ namespace MusicApi.Controllers
             return Ok(songs);
         }
 
-        [HttpGet()]
-        public async Task<IActionResult> GetAllSongs(int? pageNumber,int? pageSize)
+        //[HttpGet()]
+        //public async Task<IActionResult> GetAllSongs(int? pageNumber,int? pageSize)
+        //{
+        //    int currentPage = pageNumber ?? 1;
+        //    int currentPageSize = pageSize ?? 10;
+        //    var songs = await (from Songs in _dbContext.Songs
+
+        //                       select new
+        //                       {
+
+        //                           Id = Songs.Id,
+        //                           Title = Songs.Title,
+        //                           ImageUrl = Songs.ImageUrl,
+        //                           AudioUrl = Songs.AudioUrl,
+        //                           Duration = Songs.Duration
+
+        //                       }).ToListAsync();
+        //    return Ok(songs.Skip((currentPage - 1)* currentPageSize).Take(currentPageSize));
+        //}
+
+        [HttpGet]
+        public IActionResult GetSongs()
         {
-            int currentPage = pageNumber ?? 1;
-            int currentPageSize = pageSize ?? 10;
-            var songs = await (from Songs in _dbContext.Songs
-
-                               select new
-                               {
-
-                                   Id = Songs.Id,
-                                   Title = Songs.Title,
-                                   ImageUrl = Songs.ImageUrl,
-                                   AudioUrl = Songs.AudioUrl,
-                                   Duration = Songs.Duration
-
-                               }).ToListAsync();
-            return Ok(songs.Skip((currentPage - 1)* currentPageSize).Take(currentPageSize));
+            try
+            {
+                var songs = _dbContext.Songs;
+                return Ok(songs);
+            }
+            catch (Exception ex)
+            {
+                Console.Write( "Error fetching songs");
+                return StatusCode(500, "Internal server error"+ex);
+            }
         }
+
 
         [HttpGet("[action]")]
         public async Task<IActionResult> NewSongs()
