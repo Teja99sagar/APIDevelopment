@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2PVbESf6Q0KjmldynOtaTwAAAAACAAAAAAAQZgAAAAEAACAAAAA0+f/uTEA4D6yhXmxm9IyvR0EyGf9v/KUpqGTsjgTjJgAAAAAOgAAAAAIAACAAAAA2RubpDwqVMVcJ3zXxjO3YqqzsUCKflrpQ/kTm/20iq4AAAACdxZ5zaB/oDRKnao9EHHEFkSYY8kg15T6ti4aSq8VkZMqZhfQZtcVLH9a+c7JTn5wzrxI8Vs/ACvb2vRdpuRfpb7jL8TlTriYFBA9yvqZrVg3BrZG7L2CThkE1f0BzLcXRFye/U1hcZdxpy6FJpM7UmHSjavNJGzVD2sEvAYa/aEAAAAALPsQgIk6b5VPvqTu3t/m5wA2PAROp5Fs4VmMUWH9Jd4hsCROQ0K6EzJyCT/oNQJ7fNZBHXRDjPkjt89lP80PJ</EncryptedPassword>
+    <History>True|2025-11-12T17:31:38.1632194Z||;True|2025-11-12T22:59:13.0524483+05:30||;True|2025-11-12T22:46:12.6327061+05:30||;False|2025-11-12T22:45:26.9150806+05:30||;True|2025-11-12T22:43:42.9983284+05:30||;True|2025-11-12T22:41:02.3564050+05:30||;True|2025-11-12T22:25:57.3457588+05:30||;True|2025-11-12T22:23:30.3578860+05:30||;True|2025-11-12T22:21:00.5776564+05:30||;True|2025-11-12T22:06:29.0362657+05:30||;True|2025-11-12T22:04:12.8730126+05:30||;True|2025-11-12T21:49:05.9755417+05:30||;True|2025-11-12T21:47:23.9017704+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AZURE_SQL_CONNECTIONSTRING">
+      <Value>Server=tcp:musicapiserver-teja.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=sagarbo%3bPassword=Teja9792%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

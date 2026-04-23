@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="tejamusicapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Dev\\MusicApi\\WebApplication1\\obj\\Debug\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

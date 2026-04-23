@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\MusicApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\helpers\\filehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\helpers\\filehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\musicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\musicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|c:\\dev\\musicapi\\webapplication1\\migrations\\20251113142556_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B06594C-FE02-4049-AF30-714E570DCFCC}|WebApplication1\\MusicApi.csproj|solutionrelative:webapplication1\\migrations\\20251113142556_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251113142556_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Migrations\\20251113142556_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20251113142556_InitialCreate.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Migrations\\20251113142556_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20251113142556_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:25:57.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAkAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T16:11:40.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:48:54.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Startup.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Startup.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Startup.cs",
+              "RelativeToolTip": "WebApplication1\\Startup.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:13:29.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileHelpers.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Helpers\\FileHelpers.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Helpers\\FileHelpers.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Helpers\\FileHelpers.cs",
+              "RelativeToolTip": "WebApplication1\\Helpers\\FileHelpers.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:38:21.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\SongsController.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\SongsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:19:19.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Song.cs",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\Models\\Song.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:18:00.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MusicApi.csproj",
+              "DocumentMoniker": "C:\\Dev\\MusicApi\\WebApplication1\\MusicApi.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\MusicApi.csproj",
+              "ToolTip": "C:\\Dev\\MusicApi\\WebApplication1\\MusicApi.csproj",
+              "RelativeToolTip": "WebApplication1\\MusicApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T15:23:10.636Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

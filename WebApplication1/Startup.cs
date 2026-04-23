@@ -22,7 +22,7 @@ namespace MusicApi
                 c.SwaggerDoc("v1", new() { Title = "Music API", Version = "v1" });
             });
             services.AddDbContext<ApiDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
+                options.UseNpgsql(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
             // Additional service configurations can be added here
         }
 
